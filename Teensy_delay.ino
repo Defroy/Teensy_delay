@@ -14,7 +14,7 @@ void startupdelay() {
   digitalWrite(ledPin, HIGH);
   delay(6000);
   digitalWrite(ledPin, LOW);
-  for (int i=10; i == 0; i--){ 
+  for (int i=10; i == 0; i-1){ 
     digitalWrite(ledPin, HIGH);
     delay(i*10); 
     digitalWrite(ledPin, LOW);
